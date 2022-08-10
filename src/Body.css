@@ -90,13 +90,12 @@ body{
 
 @media screen and (max-width:1000px) {
     .Fpage{
-        /* background-color: red; */
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
     }
-
+    
     .Content p{
         width:100%;
         text-align: center;
@@ -108,6 +107,6 @@ body{
 
     #mobile{
         display: grid;
-        width:370px;
+        width:300px;
     }
 }
