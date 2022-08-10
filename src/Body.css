@@ -88,7 +88,7 @@ body{
     height:100%;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
     .Fpage{
         width: 90%;
         margin-left: auto;
@@ -118,8 +118,7 @@ body{
     }
 
     #mobile{
-        display: grid;
+        display: flex;
         width:250px;
-        margin: 0 auto;
     }
 }
