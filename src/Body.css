@@ -69,7 +69,6 @@ body{
 }
 
 .Pic{
-    background-color: red;
     width: 50%;
 }
 
@@ -79,8 +78,9 @@ body{
 }
 
 @media screen and (max-width:1000px) {
-    .Fpage {
-        width: 80%;
+    .Fpage{
+        background-color: red;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
@@ -91,6 +91,7 @@ body{
         width:100%
     }
 
+    
     #desk{
         display: none;
     }
