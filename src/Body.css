@@ -93,7 +93,6 @@ body{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        display: grid;
     }
 
     .Content h1{
@@ -101,10 +100,18 @@ body{
     }
     
     .Content p{
-        width:100%;
+        width:250px;
         text-align: center;
     }
 
+    .Content input{
+        width:250px;
+        position:absolute;
+    }
+    #butt1{
+        margin-left: 200px;
+        position: relative;
+    }
     #desk{
         display: none;
     }
