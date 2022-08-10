@@ -51,7 +51,18 @@ body{
     position: absolute;
 }
 
-.Fpage button{
+#butt1{
+    background-color: salmon;
+    padding:16.5px;
+    width: 80px;
+    border-radius: 40px;
+    margin-left: 280px ;
+    position: relative;
+    border: none;
+}
+
+#butt2{
+    display: none;
     background-color: salmon;
     padding:16.5px;
     width: 80px;
@@ -79,25 +90,24 @@ body{
 
 @media screen and (max-width:1000px) {
     .Fpage{
-        background-color: red;
+        /* background-color: red; */
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
-        text-align: center;
     }
 
     .Content p{
-        width:100%
+        width:100%;
+        text-align: center;
     }
 
-    
     #desk{
         display: none;
     }
 
     #mobile{
         display: grid;
-        width:300px
+        width:370px;
     }
 }

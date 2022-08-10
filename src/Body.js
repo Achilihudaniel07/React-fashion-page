@@ -18,7 +18,8 @@ function Body() {
       <h1> <span>WE'RE </span> COMING SOON</h1>
       <p>Hello fellow shopers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
-      <input type="e-mail" placeholder='name@gmail.com' required/><button> > </button>
+      <input type="e-mail" placeholder='name@gmail.com' required/>
+      <button id ="butt1"> > </button>
       </div>
 
       <div className='Pic'>
