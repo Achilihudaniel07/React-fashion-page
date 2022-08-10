@@ -95,6 +95,10 @@ body{
         margin-right: auto;
         display: grid;
     }
+
+    .Content h1{
+        font-size: 3rem;
+    }
     
     .Content p{
         width:100%;
@@ -107,6 +111,7 @@ body{
 
     #mobile{
         display: grid;
-        width:300px;
+        width:250px;
+        margin: 0 auto;
     }
 }
