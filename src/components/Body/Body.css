@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(./images/bgPatternDesktop.svg);
+    background-image: url(../images/bgPatternDesktop.svg);
     background-size: cover;
 }
 .Fpage{
@@ -100,8 +100,7 @@ body{
     }
     
     .Content p{
-        width:250px;
-        text-align: center;
+        width:300px;
     }
 
     .Content input{

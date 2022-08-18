@@ -1,8 +1,8 @@
 import React from 'react'
-import './Body.css';
-import logo from'./images/logo.svg'
-import hero from './images/hero.jpg'
-import hero2 from './images/hero2.jpg'
+import '../Body/Body.css';
+import logo from'../images/logo.svg'
+import hero from '../images/hero.jpg'
+import hero2 from '../images/hero2.jpg'
 
 
 
