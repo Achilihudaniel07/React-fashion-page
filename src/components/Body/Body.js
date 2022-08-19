@@ -3,6 +3,7 @@ import '../Body/Body.css';
 import logo from'../images/logo.svg'
 import hero from '../images/hero.jpg'
 import hero2 from '../images/hero2.jpg'
+import iconArrow from '../images/iconArrow.svg'
 
 
 
@@ -19,7 +20,7 @@ function Body() {
       <p>Hello fellow shopers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
       <input type="e-mail" placeholder='name@gmail.com' required/>
-      <button id ="butt1"> {">"} </button>
+      <button id ="butt1">  <img id ="butt11" src={iconArrow} alt="Fine girl" /></button>
       </div>
 
       <div className='Pic'>

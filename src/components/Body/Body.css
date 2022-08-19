@@ -51,25 +51,19 @@ body{
     position: absolute;
 }
 
-#butt1{
-    background-color: salmon;
-    padding:16.5px;
-    width: 80px;
-    border-radius: 40px;
-    margin-left: 280px ;
-    position: relative;
-    border: none;
+#mobile{
+    width: 120px;
 }
 
-#butt2{
-    display: none;
+#butt1{
     background-color: salmon;
-    padding:16.5px;
-    width: 80px;
+    padding: 10px;
+    width: 70px;
     border-radius: 40px;
-    margin-left: 280px ;
+    margin-left: 300px ;
     position: relative;
     border: none;
+    box-shadow: 0px 2px 1px 2px black;
 }
 
 .Fpage button:hover{
@@ -90,9 +84,11 @@ body{
 
 @media screen and (max-width:800px) {
     .Fpage{
-        width: 90%;
+        width: 300px;
         margin-left: auto;
         margin-right: auto;
+        display: block;
+        justify-content: center;
     }
 
     .Content h1{
@@ -100,16 +96,17 @@ body{
     }
     
     .Content p{
-        width:300px;
+        width:250px
     }
 
     .Content input{
         width:250px;
         position:absolute;
     }
+
     #butt1{
         background-color: rgb(163, 34, 19);
-        margin-left: 200px;
+        margin-left: 180px;
         position: relative;
     }
     #desk{
@@ -119,5 +116,6 @@ body{
     #mobile{
         display: flex;
         width:250px;
+        height: 200px;
     }
 }
